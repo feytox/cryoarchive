@@ -14,6 +14,8 @@ I managed to decode a few of the simplest transmissions, but my computing power 
 
 Quality metric: [Levenshtein Mean](https://en.wikipedia.org/wiki/Levenshtein_distance) — the average Levenshtein distance across the test dataset.
 
+A good score is 1.9 or lower. But it’s best if the score is below 1.5.
+
 ## Input Data Description
 
 - `morse_dataset_public.zip` – a zip file containing audio files in wav format with a sampling rate of 8 kHz, as well as the file `morse_dataset/train/labels.csv` containing the annotations.
